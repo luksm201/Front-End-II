@@ -11,38 +11,30 @@
 
 <body>
 
-
-
-
-  <h1>A família dos felinos</h1>
-
-  <button onclick="changeTheme()" class="main-button" id="changeClassButton">mudar tema 🌙</button>
+  <h1 class="titulo-principal">Pontos Turísticos no Brasil</h1>
 
   <div class="novo-tema">
-
-    <h1 class="titulo-principal">Cards Aleatórios</h1>
-
+    
   </div>
 
-
-
-
   <div>
-    <form action="">
+    <h2>Cadastro de pontos turísticos</h2>
+    <form action="" class="formulario">
+      
       <div>
           <label for="titulo">Título:</label>
           <input type="text" id="titulo" placeholder="Titulo"/>
       </div>
       <div>
           <label for="descricao">Descrição:</label>
-          <input type="text" id="descricao" placeholder="Descrição" />
+          <textarea id="descricao" name="descricao" rows="1" cols="30">Digite aqui...</textarea>
       </div>
       <div>
-          <label for="urlImagem">Url da imagem:</label>
+          <label for="urlImagem">Link da paisagem:</label>
           <input type="text" id="urlImagem" placeholder="URL da imagem"/>
       </div>
       <div class="button">
-        <button type="submit" id="botaoSalvar">Salvar</button>
+        <button type="submit" id="botaoSalvar">Cadastrar</button>
     </div>
   </form>
 

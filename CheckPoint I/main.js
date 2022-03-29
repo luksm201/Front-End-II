@@ -1,23 +1,24 @@
 
 
-let bodyReference = document.querySelector('body')
-let changeClassButtonRefernece = document.querySelector('#changeClassButton')
+// let bodyReference = document.querySelector('body')
+// let changeClassButtonRefernece = document.querySelector('#changeClassButton')
 
-function changeTheme() {
+// function changeTheme() {
 
-    bodyReference.classList.toggle('dark')
+//     bodyReference.classList.toggle('dark')
 
-    if( bodyReference.classList.contains('dark') ) {
+//     if( bodyReference.classList.contains('dark') ) {
 
-        changeClassButtonRefernece.innerText = 'mudar tema ☀️'
+//         changeClassButtonRefernece.innerText = 'mudar tema ☀️'
 
-    } else {
 
-        changeClassButtonRefernece.innerText = 'mudar tema 🌙'
+//     } else {
 
-    }
+//         changeClassButtonRefernece.innerText = 'mudar tema 🌙'
 
-}
+//     }
+
+// }
 
 
 
